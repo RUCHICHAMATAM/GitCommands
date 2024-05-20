@@ -1,0 +1,23 @@
+git -v or git --version
+git init =initialize repository
+git status =to know status
+git branch =to which branch we are in
+git add . = stage the files
+git config --global user.email "email"
+git config --global user.name "name"
+git config --list
+git log
+git checkout master
+--------------------------------------------------------
+ create a new repository on the command line
+echo "# GitCommands" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RUCHITHACHAMATAM/GitCommands.git
+git push -u origin main
+--------------------------------------------------------
+git remote add origin https://github.com/RUCHITHACHAMATAM/GitCommands.git
+git branch -M main
+git push -u origin main
